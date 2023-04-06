@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 539377624 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
-    # Измените код этой функции
-    # Это будет вашим решением
-    # Не меняйте название функции и её аргументы
-    return x.mean() # Ваш ответ
+    a = np.array([0] * 40)
+    for i in range(40):
+        a[i] = 2.0 * x[i] / n[i] / n[i]
+    return a.mean()
